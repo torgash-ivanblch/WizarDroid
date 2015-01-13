@@ -106,7 +106,7 @@ public abstract class BasicWizardLayout extends WizardFragment implements View.O
     /**
      * Updates the UI according to current step position
      */
-    private void updateWizardControls() {
+    public void updateWizardControls() {
         //Disable the back button in the first step
         previousButton.setEnabled(!wizard.isFirstStep());
 
